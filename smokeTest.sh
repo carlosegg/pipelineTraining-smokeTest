@@ -126,8 +126,13 @@ main $*
 exit $?
 
 ##################### DEPLOYMENT TABLE ############################
-#--------------+------------------------------------
-# Enviroment   | URLS                               
-#--------------+------------------------------------
-ci             | http://ci-yarnottap/docs/
+#--------------+--------------------------------------------------------------
+# Enviroment   | URL 
+#--------------+--------------------------------------------------------------
+ci             | http://ci-pipeline.hi.inet/pipelineTraining
+qa             | http://pruebas-develenv2.hi.inet/pipelineTraining
+thirdparty     | http://ci-yarnottap.hi.inet/pipelineTraining
+demo           | http://ci-rmtest.hi.inet/pipelineTraining
+
+
 
