@@ -66,7 +66,7 @@ function init(){
 
 
 function httpOK(){
-   wget_test_result=`wget -q -S "$1" -O /dev/null 2>&1|grep "HTTP/"\
+   wget_test_result=`wget -q -S --max-redirect=0 "$1" -O /dev/null 2>&1|grep "HTTP/"\
                     |head -1|grep "OK"|awk '{ print $2}'`
    case $wget_test_result in
       200)
