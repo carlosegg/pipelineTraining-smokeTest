@@ -18,8 +18,6 @@ exit $?
 #--------------+--------------------------------------------------------------
 # Enviroment   | URL 
 #--------------+--------------------------------------------------------------
-ci             | http://ci-pipeline.hi.inet/pipelineTraining
-qa             | http://pruebas-develenv2.hi.inet/pipelineTraining
-thirdparty     | http://ci-yarnottap.hi.inet/pipelineTraining
-demo           | http://ci-rmtest.hi.inet/pipelineTraining
+int            | http://int-pipeline-01/pipelineTraining
+qa             | http://qa-pipeline-01/pipelineTraining
 
